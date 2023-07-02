@@ -1,0 +1,4 @@
+export const GET_ITEMS = 'GET_ITEMS';
+export const TOGGLE_VEG_FILTER = 'TOGGLE_VEG_FILTER';
+export const TOGGLE_NON_VEG_FILTER = 'TOGGLE_NON_VEG_FILTER';
+export const FILTER_ITEMS = 'FILTER_ITEMS';
