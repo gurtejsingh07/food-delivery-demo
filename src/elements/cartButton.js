@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderTopRightRadius: moderateScale(20),
     borderBottomRightRadius: moderateScale(20),
-    margin: moderateScale(0.1),
+    margin: moderateScale(0.5),
   },
   cartValue: {
     backgroundColor: constants.Colors.Black,
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     height: moderateScale(30),
     alignItems: 'center',
     justifyContent: 'center',
-    margin: moderateScale(0.1),
+    margin: moderateScale(0.5),
   },
   buttonLeft: {
     backgroundColor: constants.Colors.Black,
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderTopLeftRadius: moderateScale(20),
     borderBottomLeftRadius: moderateScale(20),
-    margin: moderateScale(0.1),
+    margin: moderateScale(0.5),
   },
   text: {color: constants.Colors.White, fontWeight: 'bold'},
 });
