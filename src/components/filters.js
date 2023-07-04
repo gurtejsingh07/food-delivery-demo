@@ -13,7 +13,9 @@ const Filters = ({selected, type, onPress}) => {
       ]}>
       <View style={styles.wrapperFoodType}>
         <Text style={{paddingHorizontal: moderateScale(5)}}>{type}</Text>
-        <FoodType type={type} />
+        <View style={{marginTop: moderateScale(2.5)}}>
+          <FoodType type={type} />
+        </View>
       </View>
 
       {selected ? <Text style={styles.text}>✕</Text> : null}
